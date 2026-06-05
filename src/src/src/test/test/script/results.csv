@@ -1,0 +1,4 @@
+
+iteration,dsm_deployment,array_deployment,mapping_deployment,dsm_migration_1000,array_migration_1000,mapping_migration_1000,dsm_streaming_peak,array_streaming_peak,dsm_store_gas,array_store_gas
+1,544198,374894,446379,1441556,642056004,816245,2167662,2702666,73919,73655
+2,,,,1441556,642056004,816245,2167662,2702666,73919,73655

@@ -1,0 +1,168 @@
+{
+  "iterations": 2,
+  "deployment_gas": {
+    "dsm": {
+      "mean": 544198.0,
+      "std": NaN,
+      "min": "544198",
+      "max": "544198",
+      "median": 544198.0,
+      "count": 1,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    },
+    "array": {
+      "mean": 374894.0,
+      "std": NaN,
+      "min": "374894",
+      "max": "374894",
+      "median": 374894.0,
+      "count": 1,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    },
+    "mapping": {
+      "mean": 446379.0,
+      "std": NaN,
+      "min": "446379",
+      "max": "446379",
+      "median": 446379.0,
+      "count": 1,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    }
+  },
+  "migration_gas_1000": {
+    "dsm": {
+      "mean": 1441556.0,
+      "std": 0.0,
+      "min": "1441556",
+      "max": "1441556",
+      "median": 1441556.0,
+      "count": 2,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    },
+    "array": {
+      "mean": 642056004.0,
+      "std": 0.0,
+      "min": "642056004",
+      "max": "642056004",
+      "median": 642056004.0,
+      "count": 2,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    },
+    "mapping": {
+      "mean": 816245.0,
+      "std": 0.0,
+      "min": "816245",
+      "max": "816245",
+      "median": 816245.0,
+      "count": 2,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    }
+  },
+  "streaming_peak_gas": {
+    "dsm": {
+      "mean": 2167662.0,
+      "std": 0.0,
+      "min": "2167662",
+      "max": "2167662",
+      "median": 2167662.0,
+      "count": 2,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    },
+    "array": {
+      "mean": 2702666.0,
+      "std": 0.0,
+      "min": "2702666",
+      "max": "2702666",
+      "median": 2702666.0,
+      "count": 2,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    }
+  },
+  "execution_time_gas": {
+    "dsm": {
+      "mean": 73919.0,
+      "std": 0.0,
+      "min": "73919",
+      "max": "73919",
+      "median": 73919.0,
+      "count": 2,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    },
+    "array": {
+      "mean": 73655.0,
+      "std": 0.0,
+      "min": "73655",
+      "max": "73655",
+      "median": 73655.0,
+      "count": 2,
+      "ci_95": [
+        NaN,
+        NaN
+      ]
+    }
+  },
+  "statistical_tests": {
+    "deployment_dsm_vs_array": {
+      "error": "Insufficient data"
+    },
+    "migration_dsm_vs_array": {
+      "test_name": "Migration Gas (n=1000): DSM vs Array Baseline",
+      "t_statistic": -Infinity,
+      "p_value": 0.0,
+      "significant": "True",
+      "cohens_d": -Infinity,
+      "degrees_of_freedom": 2
+    },
+    "migration_dsm_vs_mapping": {
+      "test_name": "Migration Gas (n=1000): DSM vs Mapping-Only",
+      "t_statistic": Infinity,
+      "p_value": 0.0,
+      "significant": "True",
+      "cohens_d": Infinity,
+      "degrees_of_freedom": 2
+    },
+    "streaming_dsm_vs_array": {
+      "test_name": "Streaming Peak Gas: DSM vs Array Baseline",
+      "t_statistic": -Infinity,
+      "p_value": 0.0,
+      "significant": "True",
+      "cohens_d": -Infinity,
+      "degrees_of_freedom": 2
+    },
+    "execution_dsm_vs_array": {
+      "test_name": "Execution Time Gas: DSM vs Array Baseline",
+      "t_statistic": Infinity,
+      "p_value": 0.0,
+      "significant": "True",
+      "cohens_d": Infinity,
+      "degrees_of_freedom": 2
+    }
+  }
+}

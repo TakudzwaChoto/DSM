@@ -1,0 +1,32 @@
+# Foundry
+cache/
+out/
+broadcast/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+.windsurf/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results files
+full_results.txt
+full_results.tx
+
+# Logs
+*.log
