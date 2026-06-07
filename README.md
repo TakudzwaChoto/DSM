@@ -1,11 +1,11 @@
-# DSM: Dynamic Storage Management for Gas-Efficient Time-Series Smart Contracts
+# DSM: Dynamic Storage Segmentation Management for Gas-Efficient Time-Series Smart Contracts
 
 [![Foundry][foundry-badge]][foundry]
 [![License: MIT][license-badge]][license]
 
 This repository contains the complete, reproducible implementation for the paper:
 
-**"DSM: A Lifecycle-Aware Storage Architecture for Gas-Efficient Time-Series Smart Contracts"**
+**"DSM: A Lifecycle-Aware Storage Segmentation Architecture for Gas-Efficient Time-Series Smart Contracts"**
 
 ## 📋 Claims Verified by This Code
 
