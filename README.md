@@ -1,4 +1,4 @@
-# DSM: Dynamic Storage Segmentation Management for Gas-Efficient Time-Series Smart Contracts
+# DSM: Dynamic Storage Management for Gas-Efficient Time-Series Smart Contracts
 
 [![Foundry][foundry-badge]][foundry]
 [![License: MIT][license-badge]][license]
